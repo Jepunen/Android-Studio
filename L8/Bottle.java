@@ -1,16 +1,18 @@
+package com.example.bottledispenser;
+
 public class Bottle {
-    private String name;
-    private String manufacturer;
-    private double bottle_size;
-    private double bottle_price;
-    private double total_energy;
+    private final String name;
+    private final String manufacturer;
+    private final double bottle_size;
+    private final double bottle_price;
+    private final double total_energy;
 
     public Bottle(){
-        name = "Pepsi Max";
-        manufacturer = "Pepsi";
-        bottle_size = 0.5;
-        bottle_price = 1.80;
-        total_energy = 0.3;
+        name = "";
+        manufacturer = "";
+        bottle_size = 0;
+        bottle_price = 0;
+        total_energy = 0;
     }
     public Bottle(String n, String manuf, double size, double price, double totE){
         name = n;
